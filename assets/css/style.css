@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.rojo{
+    grid-row: 8 / 10;
+    grid-column: 2 / 4;
+    height: 100%;
+    width: 100%;
+    background-color: red; 
+}
+
+.verde{
+    height: 100%;
+    width: 100%;
+    background-color: green; 
+}
+
+.azul{
+    height: 100%;
+    width: 100%;
+    background-color: blue; 
+}
