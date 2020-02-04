@@ -1,36 +1,57 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: monospace;
+body{
     margin: 0;
     padding: 0;
+    font-family: monospace;
 }
 
-.contenedor {
-    width: 100vw;
+/* CONTENEDOR */
+.contenedor{
+    width: 960px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    /* gap: 10px; */
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+    /* gap: 5px; */
 }
 
 /* MENU */
-
-.menu {
+.menu{
     width: 960px;
-    /* padding: 10px; */
-    height: 200px;
-    width: 100%;
-    border-bottom: 1px solid gray;
-    /* grid-row: 1 / 2;
-    grid-column: 1 / -1; */
-    grid-area: 1 / 1 / -1 / 1;
-    background-color: rebeccapurple;
+    background-color: red;
+    grid-area: 1 / 1 / 2 / 15;
+    padding: 10px;
+    border-bottom: 1px solid gray
 }
 
+/* CONTENIDO */
+.contenido{
+    width: 960px;
+    /* background-color: blue; */
+    grid-area: 2 / 1 / 16 / -1;
+    margin: 0 auto;
+}
+
+/* NEWSLETTER */
+.newsletter{
+    width: 960px;
+    /* background-color: green; */
+    grid-area: 16 / 1 / 18 / -1;
+    background-color: #f2f4f5;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* FOOTER */
+.footer{
+    /* background-color: pink; */
+    grid-area: 18 / 1 / 19 / -1;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* CSS PROYECTO */
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -44,8 +65,6 @@ body {
     text-align: right;
 }
 
-
-
 .nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
@@ -53,13 +72,6 @@ body {
 
 .input-menu {
     border-radius: 30px;
-}
-
-/* CONTENIDO */
-
-.contenido {
-    width: 960px;
-    margin: 0 auto;
 }
 
 .listad-noticias {
@@ -118,20 +130,6 @@ body {
     height: 200px;
 }
 
-/* NEWSLETTER */
-
-.newsletter {
-    /* width: 960px; */
-    width: 100%;
-    background-color: royalblue;
-    /* background-color: #f2f4f5; */
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    grid-row: 9 / 12;
-    grid-column: 1 / -1;
-}
-
 .newsletter h2 {
     font-size: 24px
 }
@@ -148,15 +146,4 @@ body {
 .group button {
     background-color: coral;
     color: white;
-}
-
-/* FOOTER */
-
-.footer {
-    background-color: red;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    grid-row: 12 / -1;
-    grid-column: 1 / -1;
 }
