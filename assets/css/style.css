@@ -18,7 +18,7 @@
     height: 100px;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    /* background-color: red; */
     border-bottom: 1px solid gray;
     padding-left: 30px;
     padding-right: 30px;
@@ -26,14 +26,14 @@
 
   main{
     height: auto;
-    background-color: salmon;
+    /* background-color: salmon; */
     padding: 15px 30px;
     gap: 10px;
   }
   
   aside{
     height: auto;
-    background-color: green;
+    /* background-color: green; */
     display: none;
     padding-left: 40px;
     padding-right: 30px;
