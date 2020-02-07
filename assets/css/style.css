@@ -99,8 +99,53 @@
   margin-top: 10px;
 } */
 
-.imagen__noticia{
+.imagen__noticia-1{
   background-image: url(https://picsum.photos/200/300?random=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.imagen__noticia-2{
+  background-image: url(https://picsum.photos/200/300?random=2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.imagen__noticia-3{
+  background-image: url(https://picsum.photos/200/300?random=3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.imagen__noticia-4{
+  background-image: url(https://picsum.photos/200/300?random=4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.imagen__noticia-5{
+  background-image: url(https://picsum.photos/200/300?random=5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.imagen__noticia-6{
+  background-image: url(https://picsum.photos/200/300?random=6);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -300,7 +345,7 @@
     grid-column: span 1
     }
 
-    .imagen__noticia{
+    .imagen__noticia-1{
       background-image: url(https://picsum.photos/200/300?random=1);
       background-repeat: no-repeat;
       background-size: cover;
@@ -309,6 +354,50 @@
       margin-top: 10px;
     }
 
+    .imagen__noticia-2{
+      background-image: url(https://picsum.photos/200/300?random=2);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 400px;
+      margin-top: 10px;
+    }
+
+    .imagen__noticia-3{
+      background-image: url(https://picsum.photos/200/300?random=3);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 400px;
+      margin-top: 10px;
+    }
+    .imagen__noticia-4{
+      background-image: url(https://picsum.photos/200/300?random=4);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 400px;
+      margin-top: 10px;
+    }
+
+    .imagen__noticia-5{
+      background-image: url(https://picsum.photos/200/300?random=5);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 400px;
+      margin-top: 10px;
+    }
+
+    .imagen__noticia-6{
+      background-image: url(https://picsum.photos/200/300?random=6);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 400px;
+      margin-top: 10px;
+    }
+    
     .cuerpo p {
       padding: 10px 0px;
     }
