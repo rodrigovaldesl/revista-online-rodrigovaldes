@@ -263,9 +263,6 @@
   }
   
   @media (min-width: 992px) {
-    aside{
-      display: block;
-    }
     .col-md-12 {
     grid-column: span 12
     }
@@ -303,12 +300,6 @@
     grid-column: span 1
     }
 
-    /* .cuerpo img{
-      width: 100%;
-      height: auto;
-      margin-top: 10px;
-    } */
-
     .imagen__noticia{
       background-image: url(https://picsum.photos/200/300?random=1);
       background-repeat: no-repeat;
@@ -328,6 +319,10 @@
 
     .display__li{
       display: inline;
+    }
+
+    aside{
+      display: block;
     }
   }
   
