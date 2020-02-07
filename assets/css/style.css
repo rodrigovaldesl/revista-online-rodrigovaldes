@@ -14,47 +14,44 @@
   /* ESTRUCTURA CSS */
 
   nav{
+    /* background-color: red; */
     display: flex;
     height: 100px;
     justify-content: center;
     align-items: center;
-    /* background-color: red; */
     border-bottom: 1px solid gray;
     padding-left: 30px;
     padding-right: 30px;
   }
 
   main{
-    height: auto;
     /* background-color: salmon; */
+    height: auto;
     padding: 15px 30px;
     gap: 10px;
   }
   
   aside{
-    height: auto;
     /* background-color: green; */
+    height: auto;
     display: none;
     padding-left: 40px;
     padding-right: 30px;
   }
 
   .newsletter{
-    height: 250px;
+    background-color: #F9F9F9;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightgray;
     padding-left: 30px;
     padding-right: 30px;
-  }
-
-  .newsletter span{
     text-align: center;
   }
 
   footer{
-    height: 100px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,14 +94,23 @@
   cursor: pointer;
 }
 
-main img{
+/* .cuerpo img{
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+} */
+
+.imagen__noticia{
+  background-image: url(https://picsum.photos/200/300?random=1);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 150px;
   margin-top: 10px;
 }
 
 .cuerpo p {
-  padding: 10px 0;
+  padding: 10px 15px;
 }
 
 /* LISTADO IZQUIERDO */
@@ -169,7 +175,6 @@ main img{
   border-width: 0;
   font-size: 13px;
   padding: 5px 10px;
-
 }
 
 .group button {
@@ -177,6 +182,9 @@ main img{
   color: white;
 }
 
+.display__li{
+  display: none;
+}
 
   /* MEDIA QUERY */
     .col-xs-12 {
@@ -295,10 +303,32 @@ main img{
     .col-md-1 {
     grid-column: span 1
     }
-    main img{
+    
+    /* .cuerpo img{
       width: 100%;
       height: auto;
       margin-top: 10px;
+    } */
+
+    .imagen__noticia{
+      background-image: url(https://picsum.photos/200/300?random=1);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 400px;
+      margin-top: 10px;
+    }
+
+    .cuerpo p {
+      padding: 10px 0px;
+    }
+
+    footer{
+      height: 100px;
+    }
+
+    .display__li{
+      display: inline;
     }
   }
   
